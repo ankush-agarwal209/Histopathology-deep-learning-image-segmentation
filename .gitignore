@@ -1,0 +1,48 @@
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model weights and exports
+*.pth
+*.pt
+*.onnx
+
+# PyTorch and other package environments
+site-packages/
+Lib/
+Scripts/
+Include/
+
+# Datasets
+dataset/
+datasets/
+data/
+Cx22_Multi_Train/
+
+# Secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
